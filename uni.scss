@@ -4,9 +4,21 @@
  */
 @import 'uview-ui/theme.scss';
 
-uni-page-body, page {
+uni-page-body,
+page {
   height: 100%;
+  background-color: #f9f9f9;
 }
+// .uni-page-head {
+//   // #00A5FF
+//   // #0184FF
+//   background: linear-gradient(to right, #00a5ff, #0184ff);
+//   color: #fff !important;
+//   .uni-btn-icon {
+//     color: #fff !important;
+//   }
+// }
 u-button {
   display: inline-block;
+  width: 100%;
 }

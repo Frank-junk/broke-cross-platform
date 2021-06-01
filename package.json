@@ -1,0 +1,24 @@
+{
+  "name": "broke-cross-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimeiyijia/broke-cross-platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimeiyijia/broke-cross-platform/issues"
+  },
+  "homepage": "https://github.com/aimeiyijia/broke-cross-platform#readme"
+}
