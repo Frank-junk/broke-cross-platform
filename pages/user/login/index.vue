@@ -126,6 +126,9 @@
       color: #0b6bf3;
       margin-top: 36rpx;
       margin-bottom: 12rpx;
+      /deep/ .u-btn {
+        color: #0b6bf3;
+      }
     }
 
     .login-form_other {
