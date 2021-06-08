@@ -95,16 +95,16 @@
       return {
         swiperList: [
           {
-            image: '/static/images/new/main_home_show_banner.png',
+            image: '/static/images/home/swiper_1.png',
           },
           {
-            image: '/static/images/new/main_home_show_one.png',
+            image: '/static/images/home/swiper_2.png',
           },
           {
-            image: '/static/images/new/main_home_show_three.png',
+            image: '/static/images/home/swiper_3.png',
           },
           {
-            image: '/static/images/new/main_home_show_four.png',
+            image: '/static/images/home/swiper_4.png',
           },
         ],
         featLists: [
