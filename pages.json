@@ -78,26 +78,26 @@
 		"list": [
 			{
 				"pagePath": "pages/home/index",
-				"iconPath": "static/images/new/icon_main_sy.png",
-				"selectedIconPath": "static/images/new/icon_main_sy_c.png",
+				"iconPath": "static/images/system/home.png",
+				"selectedIconPath": "static/images/system/home_active.png",
 				"text": "首页"
 			},
 			{
 				"pagePath": "pages/channel/index",
-				"iconPath": "static/images/new/icon_main_pd.png",
-				"selectedIconPath": "static/images/new/icon_main_pd_c.png",
+				"iconPath": "static/images/system/channel.png",
+				"selectedIconPath": "static/images/system/channel_active.png",
 				"text": "频道"
 			},
 			{
 				"pagePath": "pages/chat/index",
-				"iconPath": "static/images/new/icon_main_lt.png",
-				"selectedIconPath": "static/images/new/icon_main_lt_c.png",
+				"iconPath": "static/images/system/chat.png",
+				"selectedIconPath": "static/images/system/chat_active.png",
 				"text": "聊天"
 			},
 			{
 				"pagePath": "pages/mine/index",
-				"iconPath": "static/images/new/icon_main_wd.png",
-				"selectedIconPath": "static/images/new/icon_main_wd_c.png",
+				"iconPath": "static/images/system/mine.png",
+				"selectedIconPath": "static/images/system/mine_active.png",
 				"text": "我的"
 			}
 		]

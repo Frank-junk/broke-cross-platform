@@ -109,19 +109,19 @@
         ],
         featLists: [
           {
-            image: '/static/images/new/main_home_zqsbtz.png',
+            image: '/static/images/home/zqsbtz.png',
             text: '债权申报通知',
           },
           {
-            image: '/static/images/new/main_home_wdaj.png',
+            image: '/static/images/home/wdaj.png',
             text: '我的案件',
           },
           {
-            image: '/static/images/new/main_home_zqsb.png',
+            image: '/static/images/home/zqsb.png',
             text: '债权申报',
           },
           {
-            image: '/static/images/new/main_home_zxhy.png',
+            image: '/static/images/home/zxhy.png',
             text: '在线会议',
           },
         ],
