@@ -20,12 +20,24 @@
         <u-input v-model="form.sex" placeholder="请输入登录账号" />
       </u-form-item>
       <u-form-item label="身份证正反面">
-        <u-input v-model="form.sex" placeholder="请输入登录账号" />
+        <u-upload
+          :action="action"
+          :file-list="fileList"
+          :max-count="2"
+          :upload-text="uploadText"
+        ></u-upload>
       </u-form-item>
       <u-form-item label="邮箱">
         <u-input v-model="form.sex" placeholder="请输入登录账号" />
       </u-form-item>
     </u-form>
+
+    <view class="register-opera">
+      <u-button :ripple="true" :hair-line="false" class="register-opera_btn">
+        登录
+      </u-button>
+      <view class="register-opera_tip">已有账户，立即登陆</view>
+    </view>
   </view>
 </template>
 
@@ -67,6 +79,16 @@
         ],
         radio: '',
         switchVal: false,
+        uploadText: '身份证正面',
+        action: 'http://www.example.com/upload',
+        fileList: [
+          {
+            url: 'http://pics.sc.chinaz.com/files/pic/pic9/201912/hpic1886.jpg',
+          },
+          {
+            url: 'http://pics.sc.chinaz.com/files/pic/pic9/201912/hpic1886.jpg',
+          },
+        ],
       }
     },
   }
@@ -86,6 +108,24 @@
       }
       /deep/ .u-form-item {
         padding: 20rpx 12px;
+      }
+    }
+    .register-opera {
+      padding: 36rpx 12rpx;
+      text-align: center;
+      .register-opera_btn {
+        width: 88%;
+        color: #fff;
+        background-color: #0b6bf3;
+        /deep/ .u-btn {
+          color: #fff;
+          background-color: #0b6bf3;
+          border-radius: 4px;
+        }
+      }
+      .register-opera_tip {
+        margin-top: 16rpx;
+        color: #0b6bf3;
       }
     }
   }
