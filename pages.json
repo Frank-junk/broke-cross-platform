@@ -2,7 +2,7 @@
 	"easycom": {
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/user/login/index",
 			"name": "login",
@@ -36,15 +36,31 @@
 			}
 		},
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
+			"name": "home",
 			"style": {
-				"navigationBarTitleText": "uView-index"
+				"navigationBarTitleText": "首页"
 			}
 		},
 		{
-			"path": "pages/center/index",
+			"path": "pages/channel/index",
+			"name": "channel",
 			"style": {
-				"navigationBarTitleText": "uView-center"
+				"navigationBarTitleText": "频道"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"name": "chat",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"name": "mine",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
@@ -56,21 +72,33 @@
 	},
 	"tabBar": {
 		"color": "#909399",
-		"selectedColor": "#303133",
+		"selectedColor": "#0079FE",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [
 			{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/index.png",
-				"selectedIconPath": "static/index-selected.png",
+				"pagePath": "pages/home/index",
+				"iconPath": "static/images/new/icon_main_sy.png",
+				"selectedIconPath": "static/images/new/icon_main_sy_c.png",
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/center/index",
-				"iconPath": "static/center.png",
-				"selectedIconPath": "static/center-selected.png",
-				"text": "我"
+				"pagePath": "pages/channel/index",
+				"iconPath": "static/images/new/icon_main_pd.png",
+				"selectedIconPath": "static/images/new/icon_main_pd_c.png",
+				"text": "频道"
+			},
+			{
+				"pagePath": "pages/chat/index",
+				"iconPath": "static/images/new/icon_main_lt.png",
+				"selectedIconPath": "static/images/new/icon_main_lt_c.png",
+				"text": "聊天"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/images/new/icon_main_wd.png",
+				"selectedIconPath": "static/images/new/icon_main_wd_c.png",
+				"text": "我的"
 			}
 		]
 	}
